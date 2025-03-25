@@ -24,7 +24,7 @@ const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <span className="inline-block">Angular & React</span> 
+              <span className="inline-block">Web & Mobile</span> 
               <span className="text-primary animate-glow ml-2">Developer</span>
             </motion.h1>
             

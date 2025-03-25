@@ -139,11 +139,11 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    role: "Angular Developer",
+    role: "Web Developer",
     company: "iSolve",
     period: "2021 - Present",
     description: "Led complex Angular projects with rapid skill acceleration. Implemented CMS integration, SSR, multilingual support, and performance optimization techniques.",
-    skills: ["Angular", "Strapi CMS", "i18n", "SEO"],
+    skills: ["Angular", "Strapi CMS", "React Native", "Ionic", "Node.js", "Flask", ".NET", "SEO"],
     borderColor: "border-primary/20 hover:border-primary/40"
   },
   {
@@ -152,17 +152,8 @@ export const experiences = [
     company: "Freelance",
     period: "2020 - Present",
     description: "Developed two React Native applications, including a Firebase-integrated mobile solution. Created responsive web applications with Next.js and backend solutions.",
-    skills: ["React Native", "Firebase", "Next.js", "Node.js"],
+    skills: ["React Native", "Firebase", "Next.js", "Node.js", "React", "Redux", "Nest.js"],
     borderColor: "border-secondary/20 hover:border-secondary/40"
-  },
-  {
-    id: 3,
-    role: "Backend Developer",
-    company: "Tech Solutions",
-    period: "2019 - 2021",
-    description: "Focused on C# and ASP.NET backend development with Python Flask for microservices. Built RESTful APIs and database solutions for enterprise applications.",
-    skills: ["C#", "ASP.NET", "Python", "SQL"],
-    borderColor: "border-accent/20 hover:border-accent/40"
   }
 ];
 

@@ -57,7 +57,7 @@ const Experience = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <motion.a 
+          {/* <motion.a 
             href="#"
             className="flex items-center text-primary hover:text-white transition-colors duration-300 font-mono"
             whileHover={{ scale: 1.05 }}
@@ -65,7 +65,7 @@ const Experience = () => {
           >
             <i className="fas fa-file-alt mr-2"></i>
             Download Full Resume
-          </motion.a>
+          </motion.a> */}
         </motion.div>
       </div>
     </section>

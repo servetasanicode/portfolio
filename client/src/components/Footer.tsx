@@ -19,19 +19,24 @@ const Footer = () => {
               web technologies.
             </p>
             <div className="mt-4 flex space-x-4">
-              <a
-                href="#"
+                <a
+                href="https://github.com/servetasanicode"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
                 <i className="fab fa-github text-xl"></i>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/servetasani/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
-              <a
+
+              {/* <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
@@ -42,7 +47,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-primary transition-colors duration-300"
               >
                 <i className="fab fa-dev text-xl"></i>
-              </a>
+              </a> */}
             </div>
           </motion.div>
 

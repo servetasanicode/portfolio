@@ -110,7 +110,7 @@ const Projects = () => {
                   <motion.img 
                     src={project.image}
                     alt={project.title} 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     initial={{ scale: 1 }}
                     animate={{ 
                       scale: hoveredProject === project.id ? 1.1 : 1 
@@ -152,7 +152,7 @@ const Projects = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <motion.a 
+          {/* <motion.a 
             href="#"
             className="inline-flex items-center bg-transparent border-2 border-secondary text-secondary hover:bg-secondary hover:text-background px-6 py-3 rounded-md transition-all duration-300 font-space tracking-wider"
             whileHover={{ scale: 1.05 }}
@@ -160,7 +160,7 @@ const Projects = () => {
           >
             View All Projects
             <i className="fas fa-arrow-right ml-2"></i>
-          </motion.a>
+          </motion.a> */}
         </motion.div>
       </div>
     </section>

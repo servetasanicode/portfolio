@@ -76,65 +76,67 @@ export const specialSkills = [
 export const projects = [
   {
     id: 1,
-    title: "E-commerce Dashboard",
-    description: "A comprehensive admin dashboard for e-commerce management with role-based access control and multilingual support.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Modern Product Showcase",
+    description: "A sleek commercial website with multilingual CMS integration, designed for showcasing services globally.",
+    image: "/images/neo-swiss.png",
     category: "Angular",
-    tags: ["Angular", "Strapi CMS", "i18n"],
+    tags: ["Angular", "Strapi CMS", "i18n", "TailwindCSS", "Docker"],
     projectUrl: "#",
     githubUrl: "#"
   },
   {
     id: 2,
-    title: "Fitness Tracker App",
-    description: "Mobile application for tracking workouts, nutrition, and progress with offline capability and cloud synchronization.",
-    image: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    category: "Mobile",
-    tags: ["React Native", "Firebase", "Redux"],
+    title: "Point-of-Sale Web App",
+    description: "An all-in-one solution for managing retail transactions, inventory, and customer insights through a responsive interface.",
+    image: "/images/vendify.png",
+    category: "React",
+    tags: ["React", "Redux", "Node.js", "MongoDB", "Express", "Material UI"],
     projectUrl: "#",
     githubUrl: "#"
   },
   {
     id: 3,
-    title: "Real Estate Platform",
-    description: "SSR-optimized real estate listing platform with advanced search, filters, and virtual tour capabilities.",
-    image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    category: "Next.js",
-    tags: ["Next.js", "Strapi CMS", "SEO"],
+    title: "Equestrian Services Website",
+    description: "An engaging website for a horseback riding service with interactive content and booking capabilities.",
+    image: "/images/horse-riding.png",
+    category: "React Native",
+    tags: ["React Native", "Firebase", "Expo", "Styled Components"],
     projectUrl: "#",
     githubUrl: "#"
   },
   {
     id: 4,
-    title: "Delivery Logistics App",
-    description: "Mobile application for managing delivery routes, tracking packages, and optimizing delivery performance.",
-    image: "https://images.unsplash.com/photo-1586892478025-2b5472316f22?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    category: "Mobile",
-    tags: ["React Native", "Maps API", "Node.js"],
+    title: "Digital Banking Web Platform",
+    description: "Secure financial platform with features for transaction history, budgeting, and account management.",
+    image: "/images/my-neo.png",
+    category: "React",
+    tags: ["React", "TypeScript", "Redux Toolkit", "Node.js", "JWT", "REST API"],
     projectUrl: "#",
     githubUrl: "#"
   },
   {
     id: 5,
-    title: "Healthcare Portal",
-    description: "Secure patient portal with appointment scheduling, medical record access, and doctor communication features.",
-    image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    category: "Angular",
-    tags: ["Angular", "ASP.NET", "OAuth"],
+    title: "Business Intelligence Dashboard",
+    description: "Data analytics tool with real-time KPIs, charts, and predictive reporting for enterprise insights.",
+    image: "/images/neo-analytics.png",
+    category: "React",
+    tags: ["React", "D3.js", "Chart.js", "Express", "WebSockets", "PostgreSQL"],
     projectUrl: "#",
     githubUrl: "#"
   },
   {
     id: 6,
-    title: "Financial Dashboard",
-    description: "Interactive financial analytics platform with real-time data visualization, reporting, and forecasting tools.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    category: "React",
-    tags: ["React", "D3.js", "Express"],
+    title: "Real Estate Listing Website",
+    description: "A high-performance SSR platform with property listings, virtual tours, and advanced filtering.",
+    image: "/images/invest-house.png",
+    category: "Angular",
+    tags: ["Angular", "Strapi CMS", "SEO", "Cloudinary", "GraphQL"],
     projectUrl: "#",
     githubUrl: "#"
   }
 ];
+
+
 
 export const experiences = [
   {
@@ -158,7 +160,7 @@ export const experiences = [
 ];
 
 export const contactInfo = {
-  email: "contact@yourdomain.com",
+  email: "servetasani.bussines@gmail.com",
   location: "Remote / Worldwide",
-  workingHours: "Mon - Fri, 9AM - 6PM"
+  workingHours: "Whenever, wherever"
 };

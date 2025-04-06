@@ -31,21 +31,30 @@ const Contact = () => {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    
+  
     try {
-      // In a real application, you would send this data to your server
-      console.log('Form data', data);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+      const response = await fetch("https://formspree.io/f/meoapeoj", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify(data),
       });
-      
-      // Reset form
-      reset();
+  
+      if (response.ok) {
+        toast({
+          title: "Message sent!",
+          description: "Thank you for your message. I'll get back to you soon.",
+        });
+        reset();
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+          variant: "destructive"
+        });
+      }
     } catch (error) {
       toast({
         title: "Error",
@@ -56,6 +65,7 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
+  
 
   return (
     <section id="contact" className="py-20 relative min-h-screen">

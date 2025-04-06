@@ -35,7 +35,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.8 }}
             >
               Specializing in <span className="text-secondary">Angular</span>, <span className="text-primary">React</span>, and <span className="text-accent">Next.js</span> with a strong 
-              foundation in <span className="text-secondary">C#</span>, <span className="text-primary">ASP.NET</span>, and <span className="text-accent">Node.js</span>. 
+              foundation in <span className="text-secondary">Python</span>, <span className="text-primary">ASP.NET</span>, and <span className="text-accent">Node.js</span>. 
               Building futuristic, responsive web experiences with a focus on performance.
             </motion.p>
             
@@ -59,15 +59,23 @@ const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1.2 }}
             >
-              <a href="#" className="text-white hover:text-primary transition-colors duration-300">
-                <i className="fab fa-github text-xl"></i>
-              </a>
-              <a href="#" className="text-white hover:text-primary transition-colors duration-300">
-                <i className="fab fa-linkedin text-xl"></i>
-              </a>
-              <a href="#" className="text-white hover:text-primary transition-colors duration-300">
-                <i className="fab fa-twitter text-xl"></i>
-              </a>
+            <a
+              href="https://github.com/servetasanicode"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-primary transition-colors duration-300"
+            >
+              <i className="fab fa-github text-xl"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/servetasani/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-primary transition-colors duration-300"
+            >
+            <i className="fab fa-linkedin text-xl"></i>
+          </a>
+
             </motion.div>
           </motion.div>
           
@@ -81,10 +89,12 @@ const HeroSection = () => {
               <div className="absolute inset-0 rounded-full bg-primary opacity-20 blur-xl"></div>
               <div className="absolute inset-4 rounded-full bg-gradient-to-br from-primary via-secondary to-accent opacity-30"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="font-orbitron text-3xl text-white">
-                  <i className="fas fa-laptop-code mr-2 text-primary"></i> // CODE
-                </div>
-              </div>
+              <img
+                src="/images/servet.jpeg"
+                alt="Hero Image"
+                className="w-3/6 h-6/6 md:w-11/12 md:h-11/12 object-cover rounded-full shadow-lg"
+              />
+            </div>
             </div>
           </motion.div>
         </div>
